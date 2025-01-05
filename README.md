@@ -1,4 +1,4 @@
-# VR42 Keyboard PCB
+# SR42 Keyboard PCB
 
 <p align="center"><img alt="Do not build" src="docs/donotbuild.min.svg" width="213"></p>
 <blockquote align="center"><b>NB:</b> This project design is complete, but has not been prototyped for validation.</blockquote>
@@ -13,33 +13,33 @@ A 42-key micro keyboard designed for QMK with specific focus on ultra fast key s
 
 ## Case
 
-This case is designed in conjunction with the [VR42 Keyboard Case](https://github.com/tecsmith/vr42-keyboard-case).  These two projects are mutually inclusive and built as one solution.
+This case is designed in conjunction with the [SR42 Keyboard Case](https://github.com/tecsmith/sr42-keyboard-case).  These two projects are mutually inclusive and built as one solution.
 
-<p align="center"><img src="docs/vr42-case.png" width="480"></p>
+<p align="center"><img src="docs/sr42-case.png" width="480"></p>
 
 ## Resources
 
 ### Schematic
- - PDF [here](docs/vr42-revB.pdf)
+ - PDF [here](docs/sr42-revB.pdf)
 
 ### MCU PCB
- - EAGLE BRD *(PCB)* [here](EAGLE/vr42/vr42-revB-kbd.brd)
- - EAGLE SCH *(Schematic)* [here](EAGLE/vr42/vr42-revB-kbd.sch)
+ - EAGLE BRD *(PCB)* [here](EAGLE/sr42/sr42-revB-kbd.brd)
+ - EAGLE SCH *(Schematic)* [here](EAGLE/sr42/sr42-revB-kbd.sch)
 
 ### Key Switch PCB
- - EAGLE BRD *(PCB)* [here](EAGLE/vr42/vr42-revB-kbd.brd)
- - EAGLE SCH *(Schematic)* [here](EAGLE/vr42/vr42-revB-kbd.sch)
+ - EAGLE BRD *(PCB)* [here](EAGLE/sr42/sr42-revB-kbd.brd)
+ - EAGLE SCH *(Schematic)* [here](EAGLE/sr42/sr42-revB-kbd.sch)
 
 
 ### Beta PCB renders
 
 #### Top
 
-<p align="center"><img src="docs/vr42-revB-top.png" width="640"></p>
+<p align="center"><img src="docs/sr42-revB-top.png" width="640"></p>
 
 #### Bottom *(Component side)*
 
-<p align="center"><img src="docs/vr42-revB-btm.png" width="640"></p>
+<p align="center"><img src="docs/sr42-revB-btm.png" width="640"></p>
 
 #### Intra-Board Connectors
 
@@ -56,15 +56,15 @@ You will need 3x Molex Pico-EZMate cables
 
 #### Render
 
-<p align="center"><img src="docs/vr42-render.png" width="640"></p>
+<p align="center"><img src="docs/sr42-render.png" width="640"></p>
 
 #### Layout
 
-<p align="center"><img src="docs/vr42-layout.png" width="640"></p>
+<p align="center"><img src="docs/sr42-layout.png" width="640"></p>
 
 #### Matrix coordinates *(QMK & VIA)*
 
-<p align="center"><img src="docs/vr42-matrix.png" width="640"></p>
+<p align="center"><img src="docs/sr42-matrix.png" width="640"></p>
 
 
 ## Planned Features
@@ -95,4 +95,4 @@ You will need 3x Molex Pico-EZMate cables
 
 &nbsp;<br>&nbsp;
 ---
-Made with &#9829; by **Vino Rodrigues**
+Made with :heart: by **Silvino Rodrigues**

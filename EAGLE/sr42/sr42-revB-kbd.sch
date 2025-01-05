@@ -8429,7 +8429,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.27" y1="0.635" x2="0.635" y2="1.27" width="0.0762" layer="21"/>
 <wire x1="0.635" y1="1.27" x2="-1.27" y2="1.27" width="0.0762" layer="21"/>
 </package>
-<package name="VR42_MLB_FOOTPRINT">
+<package name="SR42_MLB_FOOTPRINT">
 <wire x1="-35" y1="12" x2="-35" y2="0" width="0" layer="48"/>
 <wire x1="-35" y1="0" x2="-35" y2="-12" width="0" layer="48"/>
 <wire x1="-32" y1="-15" x2="-10" y2="-15" width="0" layer="48"/>
@@ -8544,8 +8544,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-4.572" y="-2.54" size="1.778" layer="94" font="vector" align="center-left">GND</text>
 <text x="-4.572" y="2.54" size="1.778" layer="94" font="vector" align="center-left">Data</text>
 </symbol>
-<symbol name="VR42_MLB_FOOTPRINT">
-<text x="0" y="0" size="1.27" layer="94">VR42 MLB
+<symbol name="SR42_MLB_FOOTPRINT">
+<text x="0" y="0" size="1.27" layer="94">SR42 MLB
 FOOTPRINT</text>
 </symbol>
 <symbol name="TRANS_S">
@@ -8621,12 +8621,12 @@ FOOTPRINT</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VR42_MLB_FOOTPRINT">
+<deviceset name="SR42_MLB_FOOTPRINT">
 <gates>
-<gate name="G$1" symbol="VR42_MLB_FOOTPRINT" x="0" y="0"/>
+<gate name="G$1" symbol="SR42_MLB_FOOTPRINT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="VR42_MLB_FOOTPRINT">
+<device name="" package="SR42_MLB_FOOTPRINT">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -15816,7 +15816,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V"/>
-<part name="U$1" library="__temp_to_delete" deviceset="VR42_MLB_FOOTPRINT" device=""/>
+<part name="U$1" library="__temp_to_delete" deviceset="SR42_MLB_FOOTPRINT" device=""/>
 <part name="U1" library="__temp_to_delete" deviceset="2N7002" device=""/>
 <part name="U$2" library="__temp_to_delete" deviceset="UBD_FOOTPRINT" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>

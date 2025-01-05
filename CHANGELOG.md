@@ -11,4 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - WARNING: Not manufactured
   - WARNING: Not tested
 
-[unreleased]: https://github.com/tecsmith/vr42-keyboard-pcb
+[unreleased]: https://github.com/tecsmith/sr42-keyboard-pcb

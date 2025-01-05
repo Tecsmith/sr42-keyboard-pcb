@@ -8788,7 +8788,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </library>
 <library name="__temp_to_delete">
 <packages>
-<package name="VR42_MLB_FOOTPRINT">
+<package name="SR42_MLB_FOOTPRINT">
 <wire x1="-35" y1="12" x2="-35" y2="0" width="0" layer="48"/>
 <wire x1="-35" y1="0" x2="-35" y2="-12" width="0" layer="48"/>
 <wire x1="-32" y1="-15" x2="-10" y2="-15" width="0" layer="48"/>
@@ -8920,8 +8920,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="VR42_MLB_FOOTPRINT">
-<text x="0" y="0" size="1.27" layer="94">VR42 MLB
+<symbol name="SR42_MLB_FOOTPRINT">
+<text x="0" y="0" size="1.27" layer="94">SR42 MLB
 FOOTPRINT</text>
 </symbol>
 <symbol name="TRANS_S">
@@ -9003,12 +9003,12 @@ FOOTPRINT</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="VR42_MLB_FOOTPRINT">
+<deviceset name="SR42_MLB_FOOTPRINT">
 <gates>
-<gate name="G$1" symbol="VR42_MLB_FOOTPRINT" x="0" y="0"/>
+<gate name="G$1" symbol="SR42_MLB_FOOTPRINT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="VR42_MLB_FOOTPRINT">
+<device name="" package="SR42_MLB_FOOTPRINT">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -18659,7 +18659,7 @@ Pin 6 - RESET</description>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="3V3"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$1" library="__temp_to_delete" deviceset="VR42_MLB_FOOTPRINT" device=""/>
+<part name="U$1" library="__temp_to_delete" deviceset="SR42_MLB_FOOTPRINT" device=""/>
 <part name="UDB" library="ts_keyboards" deviceset="UBD-S1_C4" device=""/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V"/>

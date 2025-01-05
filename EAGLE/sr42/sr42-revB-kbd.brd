@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -216,9 +216,9 @@
 <circle x="69.05625" y="9.525" radius="1.7" width="1" layer="22"/>
 <hole x="154.78125" y="9.525" drill="2.2"/>
 <circle x="154.78125" y="9.525" radius="1.7" width="1" layer="22"/>
-<text x="122.238375" y="6.952375" size="1.5" layer="22" rot="MR0">VR42 Keyboard Switch PCB</text>
-<text x="183" y="36" size="1.4224" layer="22" rot="MR0">(c) 2024 Vino Rodrigues
-https://c1k.it/vr42</text>
+<text x="122.238375" y="6.952375" size="1.5" layer="22" rot="MR0">SR42 Keyboard Switch PCB</text>
+<text x="183" y="36" size="1.4224" layer="22" rot="MR0">(c) 2024 Silvino Rodrigues
+https://c1k.it/sr42</text>
 <text x="117.351" y="4.62725" size="1.4224" layer="22" rot="MR0">Revision: 1.0B</text>
 <wire x1="141" y1="37" x2="145" y2="37" width="0.254" layer="22"/>
 <wire x1="145" y1="37" x2="140" y2="42" width="0.254" layer="22"/>
@@ -246,9 +246,9 @@ https://c1k.it/vr42</text>
 <wire x1="78" y1="37" x2="78" y2="47" width="0.254" layer="22"/>
 <wire x1="78" y1="47" x2="81" y2="47" width="0.254" layer="22"/>
 <wire x1="81" y1="47" x2="81" y2="37" width="0.254" layer="22"/>
-<text x="165.4" y="7.1" size="1.778" layer="21" rot="R180">2024 Vino Rodrigues</text>
-<text x="126.3" y="7.7" size="2.5" layer="21" rot="R180">VR42</text>
-<circle x="139.475" y="6.075" radius="1.1" width="0.1778" layer="21"/>
+<text x="39.4" y="39.1" size="1.778" layer="21" rot="R180">2024 Silvino Rodrigues</text>
+<text x="126.3" y="7.7" size="2.5" layer="21" rot="R180">SR42</text>
+<circle x="10.475" y="38.075" radius="1.1" width="0.1778" layer="21"/>
 <text x="12.2" y="62.8" size="1.778" layer="25">Esc</text>
 <text x="31.989375" y="62.825" size="1.778" layer="25">Q</text>
 <text x="50.3" y="62.825" size="1.778" layer="25">W</text>
@@ -324,9 +324,9 @@ https://c1k.it/vr42</text>
 <wire x1="73.5" y1="5" x2="74" y2="5.5" width="0.2" layer="26"/>
 <wire x1="74" y1="5.5" x2="73.5" y2="6" width="0.2" layer="26"/>
 <wire x1="73.5" y1="5" x2="73" y2="5.5" width="0.2" layer="26"/>
-<wire x1="139.83" y1="6.4" x2="139" y2="6.3" width="0.1778" layer="21" curve="155.650413"/>
-<wire x1="139" y1="5.88" x2="139.83" y2="5.77" width="0.1778" layer="21" curve="155.650413"/>
-<wire x1="139" y1="6.26" x2="139" y2="5.93" width="0.1778" layer="21"/>
+<wire x1="10.83" y1="38.4" x2="10" y2="38.3" width="0.1778" layer="21" curve="155.650413"/>
+<wire x1="10" y1="37.88" x2="10.83" y2="37.77" width="0.1778" layer="21" curve="155.650413"/>
+<wire x1="10" y1="38.26" x2="10" y2="37.93" width="0.1778" layer="21"/>
 <circle x="146" y="57" radius="0.2" width="0.2" layer="22"/>
 <circle x="216" y="57" radius="0.2" width="0.2" layer="22"/>
 <text x="13.925" y="10.85" size="1.27" layer="25">1.25U</text>
@@ -1533,7 +1533,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="1.27" y1="0.635" x2="0.635" y2="1.27" width="0.0762" layer="21"/>
 <wire x1="0.635" y1="1.27" x2="-1.27" y2="1.27" width="0.0762" layer="21"/>
 </package>
-<package name="VR42_MLB_FOOTPRINT">
+<package name="SR42_MLB_FOOTPRINT">
 <wire x1="-35" y1="12" x2="-35" y2="0" width="0" layer="48"/>
 <wire x1="-35" y1="0" x2="-35" y2="-12" width="0" layer="48"/>
 <wire x1="-32" y1="-15" x2="-10" y2="-15" width="0" layer="48"/>
@@ -7945,7 +7945,7 @@ design rules under a new name.</description>
 <element name="ARGB" library="molex-pico-ezmate" package="MOLEX_781710003" value="MOLEX_0781710003" x="171" y="23" smashed="yes" rot="MR180">
 <attribute name="NAME" x="168.031375" y="19.44425" size="1.016" layer="26" font="vector" ratio="20" rot="MR180"/>
 </element>
-<element name="U$1" library="__temp_to_delete" package="VR42_MLB_FOOTPRINT" value="VR42_MLB_FOOTPRINT" x="171.45" y="60.2" smashed="yes"/>
+<element name="U$1" library="__temp_to_delete" package="SR42_MLB_FOOTPRINT" value="SR42_MLB_FOOTPRINT" x="171.45" y="60.2" smashed="yes"/>
 <element name="U1" library="__temp_to_delete" package="TO-236AB_NEX" value="2N7002" x="200" y="39" smashed="yes" rot="MR90">
 <attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="208" y="31" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="2N7002,215" x="208" y="31" size="1.778" layer="28" rot="MR90" display="off"/>
