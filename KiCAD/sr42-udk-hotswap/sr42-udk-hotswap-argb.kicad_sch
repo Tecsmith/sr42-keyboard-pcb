@@ -971,7 +971,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ts-kicad-lib:TPS22919"
+		(symbol "ts-kicad-lib:TPS22810"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -983,7 +983,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS22919"
+			(property "Value" "TPS22810"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -991,7 +991,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -1000,7 +1000,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ti.com/lit/ds/symlink/tps22919.pdf"
+			(property "Datasheet" "https://ti.com/lit/ds/symlink/tps22810.pdf"
 				(at 0 -13.97 0)
 				(effects
 					(font
@@ -1009,7 +1009,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TPS22919 5.5 V, 1.5 A, 90-mΩ Self-Protected Load Switch with Controlled Rise Time"
+			(property "Description" "TPS22810, 2.7-18-V, 79-mΩ On-Resistance Load Switch With Thermal Protection"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -1018,7 +1018,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C2871558"
+			(property "LCSC" "C205990"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -1027,7 +1027,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS22919_1_1"
+			(symbol "TPS22810_1_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -1042,7 +1042,7 @@
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "IN"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1060,10 +1060,10 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "ON"
+					(name "EN/VLO"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1093,10 +1093,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "OUT"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1111,11 +1111,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 7.62 0 180)
 					(length 2.54)
-					(hide yes)
-					(name "N/C"
+					(name "CT"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1130,7 +1129,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "QOD"
@@ -1154,7 +1153,7 @@
 	)
 	(text "Power switch for\nper-key LEDs (3-44)"
 		(exclude_from_sim no)
-		(at 160.02 172.72 0)
+		(at 157.226 171.196 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1641,6 +1640,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff6534a2-5a04-417c-915e-668f37491eb1")
+	)
+	(no_connect
+		(at 149.86 182.88)
+		(uuid "0cd9bef4-86be-407d-b4be-7e44a7e1c63e")
 	)
 	(wire
 		(pts
@@ -2901,16 +2904,6 @@
 			(type default)
 		)
 		(uuid "7f76ee54-02f6-44ea-ae17-151f3b41fd54")
-	)
-	(wire
-		(pts
-			(xy 132.08 177.8) (xy 132.08 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f979849-edf4-47a8-aef7-30eb9b2d823a")
 	)
 	(wire
 		(pts
@@ -4176,6 +4169,28 @@
 			)
 		)
 	)
+	(global_label "+5V(b)"
+		(shape input)
+		(at 132.08 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d7268bb-bd5a-417f-bf27-06a6953e0faf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.3819 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VLED"
 		(shape input)
 		(at 220.98 76.2 90)
@@ -4761,6 +4776,28 @@
 		(uuid "82f2d3d7-2570-40df-b24d-caa1874b0e5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.7 24.4635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V(b)"
+		(shape input)
+		(at 170.18 180.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "840c26ac-79fb-4cdd-b4ce-f726f5cea6a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 172.5819 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +7272,7 @@
 	)
 	(symbol
 		(lib_id "ts-keyboard-lib:SK6812MINI-E")
-		(at 119.38 81.28 270)
+		(at 119.38 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7244,7 +7281,7 @@
 		(fields_autoplaced yes)
 		(uuid "34e6ad2c-b64d-4f71-9e63-190f6ced1753")
 		(property "Reference" "W27"
-			(at 127 74.8598 90)
+			(at 127 74.8598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +7289,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 127 77.3998 90)
+			(at 127 77.3998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7297,7 @@
 			)
 		)
 		(property "Footprint" "ts-keyboard-lib:SK6812MINI-E"
-			(at 112.776 81.28 0)
+			(at 119.38 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,7 +7306,7 @@
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/sk6812mini-e-C5149201.pdf"
-			(at 110.744 81.28 0)
+			(at 119.38 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,95 +9018,6 @@
 			(project ""
 				(path "/f46a5539-adf6-4398-ac89-026a5789886b/927beec8-2af1-485b-83ac-8d4b31fb2213"
 					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ts-kicad-lib:TPS22919")
-		(at 142.24 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58aa4909-3d05-4c7a-bf8e-19cd61fece6c")
-		(property "Reference" "SW43"
-			(at 142.24 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS22919"
-			(at 142.24 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 142.24 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ti.com/lit/ds/symlink/tps22919.pdf"
-			(at 142.24 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TPS22919 5.5 V, 1.5 A, 90-mΩ Self-Protected Load Switch with Controlled Rise Time"
-			(at 142.24 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2871558"
-			(at 142.24 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64737464-bd8d-4a9c-b23d-d9733b802f64")
-		)
-		(pin "3"
-			(uuid "9f848cd3-980e-4970-a65e-f9df76fb91ca")
-		)
-		(pin "2"
-			(uuid "c2fc0f0f-a7d7-4d7b-a82b-bd609b58202c")
-		)
-		(pin "6"
-			(uuid "74c88eb7-4c1e-481b-ac77-b06dad8c4bac")
-		)
-		(pin "4"
-			(uuid "5f83b3c4-6571-4847-982d-35b0834d855d")
-		)
-		(pin "5"
-			(uuid "41dfc84c-32df-4287-adc7-4944440b6e48")
-		)
-		(instances
-			(project ""
-				(path "/f46a5539-adf6-4398-ac89-026a5789886b/927beec8-2af1-485b-83ac-8d4b31fb2213"
-					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -13577,71 +13525,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 132.08 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf3cb7d5-2a7b-4ddd-86fd-9f4fb363ee6d")
-		(property "Reference" "#PWR067"
-			(at 132.08 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 132.08 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 132.08 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "feb0c11f-5d88-479d-9df1-cbec2b5406d9")
-		)
-		(instances
-			(project "sr42-udk-hotswap"
-				(path "/f46a5539-adf6-4398-ac89-026a5789886b/927beec8-2af1-485b-83ac-8d4b31fb2213"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 99.06 86.36 0)
 		(unit 1)
@@ -14030,71 +13913,6 @@
 			(project "sr42-udk-hotswap"
 				(path "/f46a5539-adf6-4398-ac89-026a5789886b/927beec8-2af1-485b-83ac-8d4b31fb2213"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 170.18 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d47d927a-6b83-4964-b7e7-98088f9ab89d")
-		(property "Reference" "#PWR068"
-			(at 170.18 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 170.18 176.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 170.18 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5c4b60f-68cc-4c63-9c4a-fd9b2d4da6fe")
-		)
-		(instances
-			(project "sr42-udk-hotswap"
-				(path "/f46a5539-adf6-4398-ac89-026a5789886b/927beec8-2af1-485b-83ac-8d4b31fb2213"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -15227,6 +15045,95 @@
 			(project "sr42-udk-hotswap"
 				(path "/f46a5539-adf6-4398-ac89-026a5789886b/927beec8-2af1-485b-83ac-8d4b31fb2213"
 					(reference "W38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:TPS22810")
+		(at 142.24 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb724c46-f2dd-45c2-90a5-c222d9e8f243")
+		(property "Reference" "SW44"
+			(at 142.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS22810"
+			(at 142.24 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 142.24 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ti.com/lit/ds/symlink/tps22810.pdf"
+			(at 142.24 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TPS22810, 2.7-18-V, 79-mΩ On-Resistance Load Switch With Thermal Protection"
+			(at 142.24 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C205990"
+			(at 142.24 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "996ccb2c-2f81-4f0c-860e-75495d3eb8d7")
+		)
+		(pin "2"
+			(uuid "19dc4f75-c10a-466f-82d5-8adefa333d03")
+		)
+		(pin "6"
+			(uuid "59b53745-92cf-4ab0-ba53-d324493bd4d4")
+		)
+		(pin "4"
+			(uuid "6a50ad25-d7ce-4e3b-b5bd-99cfff75b720")
+		)
+		(pin "5"
+			(uuid "20bfab9e-c939-443e-ac42-1b68bb8f252b")
+		)
+		(pin "1"
+			(uuid "6fc06493-8ea2-4869-9c80-ec0faf78cee4")
+		)
+		(instances
+			(project ""
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/927beec8-2af1-485b-83ac-8d4b31fb2213"
+					(reference "SW44")
 					(unit 1)
 				)
 			)

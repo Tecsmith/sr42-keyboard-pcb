@@ -1,0 +1,6248 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b75e4070-eec7-4e2e-972d-fb245b6092d0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ts-keyboard-lib:Momentary_Switch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Momentary_Switch_0_1"
+				(polyline
+					(pts
+						(xy -1.6868 1.6456) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.2831 -1.2308)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.6859 -1.6205) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Momentary_Switch_1_1"
+				(circle
+					(center -1.3027 1.2842)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.8194 1.075) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.6587 0.6253) (xy 0.8861 0.863)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.081 1.0557) (xy 1.4841 1.4589)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.6923 1.6435) (xy 1.9197 1.8812)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.1061 0.1433) (xy 2.4286 0.3224) (xy 2.554 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ts-keyboard-lib:Stab_2U"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "ST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ts-keyboard-lib:STAB_2U"
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Stab_2U_1_1"
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 -1.27) (xy 1.905 -1.27) (xy 1.905 1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "STAB"
+					(at 0 1.016 0)
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(text "2U"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 83.82 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01ff98fe-59a3-4d32-9cc0-938887585058")
+	)
+	(junction
+		(at 137.16 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1793e547-ebc2-4fb4-9a12-1b9bdea438eb")
+	)
+	(junction
+		(at 152.4 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ce2ca61-8841-404f-b73a-a185364519dc")
+	)
+	(junction
+		(at 68.58 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fea5bc9-fd72-419a-884b-f4b823170217")
+	)
+	(junction
+		(at 190.5 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3609d67a-2cdd-4819-a522-e42aac4be066")
+	)
+	(junction
+		(at 152.4 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42182667-4438-41ac-bd09-859a4b8bc9a0")
+	)
+	(junction
+		(at 83.82 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48353c8f-7628-4d8d-90e7-9c4aa1d26233")
+	)
+	(junction
+		(at 152.4 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49e51b65-c9a8-44dc-8657-baec500ec12f")
+	)
+	(junction
+		(at 53.34 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52a2d71a-dc0e-4df0-953e-c8dd4678334a")
+	)
+	(junction
+		(at 99.06 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "532421d2-12e5-49b2-85e9-6340a66d69bf")
+	)
+	(junction
+		(at 220.98 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5549a4be-3a75-4330-b779-5c848c06b67b")
+	)
+	(junction
+		(at 83.82 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d080987-1517-4ecc-b35a-f3f5bdeab172")
+	)
+	(junction
+		(at 167.64 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6deb4440-9660-47f3-bf9c-7ead9c3b1143")
+	)
+	(junction
+		(at 137.16 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ec907b5-22b9-4447-bd45-32834329343b")
+	)
+	(junction
+		(at 121.92 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72f99c85-915e-4d16-9ef1-b77cc94cb82b")
+	)
+	(junction
+		(at 205.74 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7392ae09-5db3-49be-920f-6a79a21cd456")
+	)
+	(junction
+		(at 220.98 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a615b6d-bdfc-4c92-b727-a04a809b32c9")
+	)
+	(junction
+		(at 68.58 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fcaf601-20a3-4baf-b35a-a34c76c31613")
+	)
+	(junction
+		(at 167.64 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9345b58b-bbde-4578-aaab-d620c4ad7ae9")
+	)
+	(junction
+		(at 190.5 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "970faba3-0b6e-41de-ab8c-39315b7dd4b1")
+	)
+	(junction
+		(at 53.34 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cf3db90-4eb4-472d-8c01-2b2417512b9b")
+	)
+	(junction
+		(at 220.98 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a06aaba0-8fe7-4b81-9949-704dbe966f39")
+	)
+	(junction
+		(at 236.22 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a72a8aee-3170-4199-9ebc-85bea1999fdf")
+	)
+	(junction
+		(at 167.64 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a75fb897-0885-4ac9-bfd2-ff0260aa103d")
+	)
+	(junction
+		(at 205.74 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af48eef7-0fcc-43d6-84af-5298cd005708")
+	)
+	(junction
+		(at 152.4 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b92a8dc5-e3af-42ec-98b9-191020f35854")
+	)
+	(junction
+		(at 205.74 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf541e0f-ce57-4290-83da-9bf1a59ae7be")
+	)
+	(junction
+		(at 68.58 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c48d8c22-baba-4b55-ad55-354399c93261")
+	)
+	(junction
+		(at 99.06 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caf72e47-23bd-4b12-9847-bc8c7bd1400d")
+	)
+	(junction
+		(at 99.06 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d36a332f-38d8-4d9f-b08a-7b0d872f71f4")
+	)
+	(junction
+		(at 190.5 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daa75887-c773-42c5-8f10-982890b8201b")
+	)
+	(junction
+		(at 121.92 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb05a467-522c-4ae4-8463-48f3adb35827")
+	)
+	(junction
+		(at 83.82 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec6f1663-d61d-4f0b-a7fd-7c5dcd692c09")
+	)
+	(junction
+		(at 53.34 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecb41a26-9aee-45f7-bbd8-5dadc600d26d")
+	)
+	(junction
+		(at 53.34 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eee1cd96-43ea-416a-b2c6-e2c74c332988")
+	)
+	(junction
+		(at 121.92 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3ef4edf-db80-4f2e-80ca-756a7f0cd927")
+	)
+	(junction
+		(at 205.74 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8dc79a8-fda9-40e1-8db9-de561a0583ca")
+	)
+	(junction
+		(at 220.98 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faabf29f-52ac-4858-bbf5-acbd501427f9")
+	)
+	(junction
+		(at 137.16 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbda0e75-3175-4277-8125-4573984aa151")
+	)
+	(junction
+		(at 121.92 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fef6f2ff-2aff-466a-a8c0-aaa696373814")
+	)
+	(wire
+		(pts
+			(xy 83.82 43.18) (xy 68.58 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007812dd-4439-4907-87ff-6a4102d102f5")
+	)
+	(wire
+		(pts
+			(xy 167.64 81.28) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a883e4-2f24-4371-928a-3018b3b32f02")
+	)
+	(wire
+		(pts
+			(xy 50.8 40.64) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055af4de-a3fe-492a-8fa5-b47b64c6eba0")
+	)
+	(wire
+		(pts
+			(xy 71.12 104.14) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9c77ab-6c78-4b24-8870-9b917293893d")
+	)
+	(wire
+		(pts
+			(xy 124.46 88.9) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c7013f-273c-47f0-a0c2-8d0a695ab112")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1323278f-b137-4654-9cf4-88e405c93ed0")
+	)
+	(wire
+		(pts
+			(xy 205.74 81.28) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1580158d-7c61-4f10-943b-08acf12fb119")
+	)
+	(wire
+		(pts
+			(xy 205.74 101.6) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1703766f-f0e7-4388-8440-2411720f403c")
+	)
+	(wire
+		(pts
+			(xy 193.04 88.9) (xy 190.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19db9ba8-b889-4152-a147-e0c2e0abe9f4")
+	)
+	(wire
+		(pts
+			(xy 220.98 81.28) (xy 236.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d8e48d-15b3-4ec8-b5a4-dc1a3d4331a2")
+	)
+	(wire
+		(pts
+			(xy 170.18 88.9) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25be2764-5460-48bf-a753-2afb1114755b")
+	)
+	(wire
+		(pts
+			(xy 121.92 43.18) (xy 99.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aabca42-7028-4d7d-a8ca-1604f65e6276")
+	)
+	(wire
+		(pts
+			(xy 86.36 88.9) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6e3e83-f1f1-4261-84e6-4cf106a84ade")
+	)
+	(wire
+		(pts
+			(xy 152.4 81.28) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fee8083-f3a5-416e-b0d0-180e7db096cd")
+	)
+	(wire
+		(pts
+			(xy 68.58 48.26) (xy 71.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329b3476-3718-4c25-8b66-3f9b5769cf12")
+	)
+	(wire
+		(pts
+			(xy 208.28 104.14) (xy 205.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35124c59-c620-4528-8294-2422987eaa6b")
+	)
+	(wire
+		(pts
+			(xy 193.04 66.04) (xy 190.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362ca575-a5ed-498d-956a-8a51550b22d1")
+	)
+	(wire
+		(pts
+			(xy 238.76 50.8) (xy 236.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b35b70f-9216-4788-8f5c-11603bcb7cbe")
+	)
+	(wire
+		(pts
+			(xy 167.64 86.36) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0b335c-0ddf-453a-90f9-cf95bcf24136")
+	)
+	(wire
+		(pts
+			(xy 86.36 66.04) (xy 83.82 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca52909-44b8-4fb8-9f3e-ea80adce7df5")
+	)
+	(wire
+		(pts
+			(xy 50.8 81.28) (xy 53.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cdba66b-bf81-4644-976c-0a3a7b40058e")
+	)
+	(wire
+		(pts
+			(xy 154.94 88.9) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0413aa-5a93-4ffd-a672-42b53af1e387")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5a61cf-09e9-451e-8b26-e268baf37789")
+	)
+	(wire
+		(pts
+			(xy 139.7 66.04) (xy 137.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c09b91-9e0f-4a54-a116-438993749b5c")
+	)
+	(wire
+		(pts
+			(xy 101.6 66.04) (xy 99.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "495b80ed-17a8-40ea-a0a7-8c96818c9a7a")
+	)
+	(wire
+		(pts
+			(xy 53.34 48.26) (xy 53.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af79a91-c1b0-4121-86ab-0b08b9e5793d")
+	)
+	(wire
+		(pts
+			(xy 238.76 88.9) (xy 236.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d50fe95-815a-4a92-a8b9-a5aaa9c0cf5e")
+	)
+	(wire
+		(pts
+			(xy 167.64 43.18) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e47ef22-3aa5-479e-bbf9-8317930cee3a")
+	)
+	(wire
+		(pts
+			(xy 205.74 63.5) (xy 205.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f43a30b-0f6e-4f1c-b25b-50fd4daccf43")
+	)
+	(wire
+		(pts
+			(xy 152.4 43.18) (xy 137.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50aa942d-d2ee-447d-aed2-80586c6dda8b")
+	)
+	(wire
+		(pts
+			(xy 83.82 48.26) (xy 83.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d2fde4-3085-40ba-8ba9-dbb0037c8081")
+	)
+	(wire
+		(pts
+			(xy 53.34 101.6) (xy 53.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5482b7ce-df77-4c50-b685-f7a4bdc9e4d2")
+	)
+	(wire
+		(pts
+			(xy 124.46 66.04) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55296be2-a91a-4b8b-86e3-c633cf1c2eb6")
+	)
+	(wire
+		(pts
+			(xy 170.18 66.04) (xy 167.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568eecec-bc28-4fe1-a53e-b50e7758d6b5")
+	)
+	(wire
+		(pts
+			(xy 55.88 88.9) (xy 53.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580f7aaa-b3c5-488f-8b14-d61fe34e6402")
+	)
+	(wire
+		(pts
+			(xy 121.92 48.26) (xy 121.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b196cc-254c-4ffe-bbb0-a3070960c785")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605833f5-43ac-4175-a3a1-4d9990bf9004")
+	)
+	(wire
+		(pts
+			(xy 190.5 43.18) (xy 167.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67afba5f-0b41-4580-9c17-940084e3affc")
+	)
+	(wire
+		(pts
+			(xy 68.58 101.6) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a61d433-cb6c-4a62-a340-bf8405f6f9d4")
+	)
+	(wire
+		(pts
+			(xy 190.5 81.28) (xy 205.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2cc658-8abc-4df5-b6d5-74c5b1fe42d5")
+	)
+	(wire
+		(pts
+			(xy 68.58 81.28) (xy 83.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70afb22c-d1c6-4cb6-bceb-7f2f86a02a5d")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.36) (xy 83.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71082030-499c-4998-a9ca-41a44f8a3bfa")
+	)
+	(wire
+		(pts
+			(xy 154.94 104.14) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745333ab-b5b8-4bb4-b892-6a8ae90ab4dc")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 137.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749757bf-e8d3-41fa-89c5-1538bba51131")
+	)
+	(wire
+		(pts
+			(xy 238.76 104.14) (xy 236.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cb7b56-1e13-4743-a51b-a46822770ea9")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776292fd-3cba-441f-947c-00099d5b4c45")
+	)
+	(wire
+		(pts
+			(xy 53.34 86.36) (xy 53.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7814845c-6c79-4453-9ea4-b782a7f7920f")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6e18c4-9ba8-4131-8a4f-68863ce827a7")
+	)
+	(wire
+		(pts
+			(xy 55.88 104.14) (xy 53.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce1adf7-bd8f-4d10-81b8-a9d3b5cf773b")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 152.4 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4d3766-db2d-47dc-a31e-69fd667f9e65")
+	)
+	(wire
+		(pts
+			(xy 53.34 81.28) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82819f67-46f5-4ded-9d28-ac65cc40870f")
+	)
+	(wire
+		(pts
+			(xy 190.5 48.26) (xy 190.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83382487-36f4-46f7-8ee4-bd8944e3fcd0")
+	)
+	(wire
+		(pts
+			(xy 55.88 66.04) (xy 53.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a10589-fa92-46a0-b15a-9b6d6186cfcb")
+	)
+	(wire
+		(pts
+			(xy 99.06 43.18) (xy 83.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8521f3f8-e633-4d6d-92b1-afe97eb9f391")
+	)
+	(wire
+		(pts
+			(xy 99.06 48.26) (xy 99.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896639fc-2794-40ed-b59f-78c7cc1549af")
+	)
+	(wire
+		(pts
+			(xy 205.74 48.26) (xy 205.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2029b3-c25f-460d-b32d-105fba764141")
+	)
+	(wire
+		(pts
+			(xy 190.5 63.5) (xy 190.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd655d7-b2ff-40a0-8dc8-540627091628")
+	)
+	(wire
+		(pts
+			(xy 53.34 43.18) (xy 68.58 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d413103-7e42-4c49-876f-3114a29f1e90")
+	)
+	(wire
+		(pts
+			(xy 121.92 63.5) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dcfc3f0-c619-4800-8fec-01249a40ef32")
+	)
+	(wire
+		(pts
+			(xy 53.34 43.18) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbdba8d-a730-4632-b2da-93e2289cc952")
+	)
+	(wire
+		(pts
+			(xy 236.22 48.26) (xy 236.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b6a34a-92de-4f29-a93b-b5ba6540c3cd")
+	)
+	(wire
+		(pts
+			(xy 55.88 50.8) (xy 53.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9382065b-6cdf-47f6-8c18-48a03634761e")
+	)
+	(wire
+		(pts
+			(xy 220.98 43.18) (xy 205.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990a1901-b269-4677-aecd-ef0be3abdd60")
+	)
+	(wire
+		(pts
+			(xy 154.94 66.04) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a93f7c9-d876-4092-b864-a599b22f7b7d")
+	)
+	(wire
+		(pts
+			(xy 208.28 66.04) (xy 205.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4ab6dc-9814-4154-9f64-6720d4cb2091")
+	)
+	(wire
+		(pts
+			(xy 83.82 63.5) (xy 83.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6e74ea-bebd-4aac-8cfb-2e43a342a77c")
+	)
+	(wire
+		(pts
+			(xy 220.98 101.6) (xy 220.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2608cce-dce4-4152-bc93-2e51cb96ac3b")
+	)
+	(wire
+		(pts
+			(xy 101.6 88.9) (xy 99.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46014c7-a280-46e5-815f-2dbebd37df90")
+	)
+	(wire
+		(pts
+			(xy 83.82 81.28) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82b319e-9be8-40ed-b87a-54a9acf2487e")
+	)
+	(wire
+		(pts
+			(xy 71.12 66.04) (xy 68.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c33974-5368-41ac-bbe3-6c97ecdb47f9")
+	)
+	(wire
+		(pts
+			(xy 223.52 88.9) (xy 220.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a924ae4c-10cc-45ff-b9b2-87420d4fdbf5")
+	)
+	(wire
+		(pts
+			(xy 236.22 43.18) (xy 220.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93eabe6-ebd8-4ac1-a75e-b174c749529a")
+	)
+	(wire
+		(pts
+			(xy 86.36 104.14) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f130a3-ffd7-4c29-a281-5cd3502aa450")
+	)
+	(wire
+		(pts
+			(xy 124.46 104.14) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5baf49-dee9-483f-b9b0-d3f740d056bd")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 137.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2e49a0-fcc6-4bb0-8cf1-45cdebeaa80a")
+	)
+	(wire
+		(pts
+			(xy 124.46 50.8) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06be687-1064-44dc-8ce9-18583d1645bc")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4556103-0760-4b26-995c-b873311efb71")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 152.4 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3419f1-e8fa-4b9b-87b9-5d0537f3e2cf")
+	)
+	(wire
+		(pts
+			(xy 236.22 101.6) (xy 236.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be55ad29-13c6-4784-a713-1ce54f2c602c")
+	)
+	(wire
+		(pts
+			(xy 208.28 50.8) (xy 205.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb67306-07b8-437c-97ab-aaa70c2ca39d")
+	)
+	(wire
+		(pts
+			(xy 152.4 48.26) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf98da6d-2d16-489f-8edb-c8598966df8d")
+	)
+	(wire
+		(pts
+			(xy 83.82 101.6) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f01188-29d6-4fc1-bb41-7a0ef22b1312")
+	)
+	(wire
+		(pts
+			(xy 223.52 104.14) (xy 220.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c123d7e8-751d-44e6-a992-ee5fb9953829")
+	)
+	(wire
+		(pts
+			(xy 86.36 50.8) (xy 83.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a9c337-eea7-4844-8d51-6094a57fd345")
+	)
+	(wire
+		(pts
+			(xy 50.8 78.74) (xy 50.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb99ac5-70c9-494b-83ae-2b60d09137a0")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc369e7c-5f4f-457d-9903-d3ad891628b3")
+	)
+	(wire
+		(pts
+			(xy 223.52 66.04) (xy 220.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14dbedb-4f83-498a-a1ad-43faf9be18c6")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15236af-79be-4508-98df-e4d3f56791b3")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 68.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e035c2-38e2-45fb-8e7e-c942d017e507")
+	)
+	(wire
+		(pts
+			(xy 121.92 81.28) (xy 137.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d2e6fa-02fc-41dd-8e72-745cc40c7e06")
+	)
+	(wire
+		(pts
+			(xy 53.34 63.5) (xy 53.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c092ce-1e6a-490b-bc61-d20e2b18a4ca")
+	)
+	(wire
+		(pts
+			(xy 99.06 63.5) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da174ba3-34f9-45c5-9de5-04d4059afef1")
+	)
+	(wire
+		(pts
+			(xy 68.58 63.5) (xy 68.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db42d4e9-9857-4e10-960a-0d3ab969cb1d")
+	)
+	(wire
+		(pts
+			(xy 205.74 43.18) (xy 190.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9893c6-5808-470a-85fa-a321a0d41fd9")
+	)
+	(wire
+		(pts
+			(xy 167.64 48.26) (xy 167.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfafb4b9-a32d-44b7-9cd4-f34095aa8bcc")
+	)
+	(wire
+		(pts
+			(xy 170.18 50.8) (xy 167.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e3a8a8-061e-4135-abc8-5fd957ae3161")
+	)
+	(wire
+		(pts
+			(xy 236.22 86.36) (xy 236.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6543e93-8f0c-4abd-aff7-44138fafe3bb")
+	)
+	(wire
+		(pts
+			(xy 220.98 86.36) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65c407b-0c0f-47ee-a0cb-f10dc87d6610")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e966b145-d547-47f4-b175-ca061458f191")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff620c6-0c42-41b8-bed2-dacae3ab60d0")
+	)
+	(wire
+		(pts
+			(xy 223.52 50.8) (xy 220.98 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23286b5-5d0b-437f-ae3a-e01e21b8ac36")
+	)
+	(wire
+		(pts
+			(xy 137.16 48.26) (xy 137.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f281e0ff-349e-41f9-bf6b-ce2627d41968")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 205.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29450da-94f4-48df-bf5d-1ab96eafe63a")
+	)
+	(wire
+		(pts
+			(xy 193.04 50.8) (xy 190.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f328564f-5902-432f-9aa7-d07973227968")
+	)
+	(wire
+		(pts
+			(xy 220.98 48.26) (xy 220.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35738be-8cfc-4c9e-9d54-66e8a79e970d")
+	)
+	(wire
+		(pts
+			(xy 208.28 88.9) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ff6365-2d76-4940-8902-2c9936608db2")
+	)
+	(wire
+		(pts
+			(xy 220.98 63.5) (xy 220.98 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9011650-29b0-43f8-89b6-89531303fbca")
+	)
+	(wire
+		(pts
+			(xy 137.16 63.5) (xy 137.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa39ffb6-4a3f-4b78-b93f-622ad106ee8d")
+	)
+	(wire
+		(pts
+			(xy 167.64 63.5) (xy 167.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa5cff8-a947-427a-8403-abe0d5c06804")
+	)
+	(wire
+		(pts
+			(xy 137.16 43.18) (xy 121.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbd5559-a207-4fb4-ace7-ce1ad9a2f7c4")
+	)
+	(image
+		(at 101.6 160.02)
+		(scale 1.78051)
+		(uuid "30400367-5890-434d-8b00-d2dd40c61180")
+		(data "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"
+			"JwhW6Abna6+9Jn/5y1/kvPPOk0ceeUSYSFtMcSwY+cc//iHnnHOO8LUb5kwV86f37Bhg8vTgwYPl"
+			"4IMPNvy//vrrZQO++OKL5qtRZT058NAWF8NR11xzjfBxgjPPPNN8PanaN824Yf/1r38VyoI/Xa8O"
+			"AcO///1vs1rzD3/4g7zzzjt+b06fF8OVL3BS8qFf7nK40pYPPdy25dDzX+8jWwux9YzfffbZZwVi"
+			"Ja18saCGTyv73RdffFGAy7vx5ptvypVXXuldpu747LPPyoMPPtji+EBLMZBTp07N+vk/sz3fmDFj"
+			"StolxcLW4x51vl/H99xzT1ExjL11QWV7q2jgOtwM1eCkkP/ud7+Tbt26mUUXGJL33XdfASxW3FER"
+			"fPrpp7LffvvJk08+Kddee22BP71hzwDfQYfHQw89VJjzs+eeeworvfNjoODdfvvtwlYNZNb8565d"
+			"2+JiVeN1111nVnlusskmZj+3Z555xjU4BfLw5a6rr75a8huNZc0+b731VvPyxkRz5sXuu+++MnHi"
+			"xOan7h5K4fIkTlo+9OSuhKu2fOi9ZnipxXeshMu2HFpLHDHUt956Sz788EPZdtttW1znzp0LxEta"
+			"+frggw8Ew5m9KT1XbIh5+vTpWQPrQfnb3/4m7777bgHutNzghZWth9ZZZx3BFZt+8P3335sX+nnz"
+			"5skOO+xg8sWdd97pNAXYTkwR8XTco0ePAnlt7a2CgHW8EarBydvUrrvuanrOfvaznxljslijTyYB"
+			"8/XXXy8YRnyiik8lsQCJ++r8DFSumelVGTFihNx8883CXpf0GhMDb3Ic/Y5vn8J/scrX76/wvLIc"
+			"hWFquxME16hRowTDDUOa/dsOOuggs3FybRJEG3ratGly9tlnG+O4VEp8CYqXMfamQ69UPLzRl/Lv"
+			"wn0bXNXnw/ohtMFVWz70XjPixVgJV5ByaC15xFB5KWP3jhNOOEE8x4KOfPnqXL7yxal4zYsaexez"
+			"w4fnWHyTH3Dy5MmC0V3MGM33m9RrFqTS887uBj/96U8FR2dDPh4WtbAPNFvwsT0RnVy84H/33Xf5"
+			"Xp24xg5iCyzack/HfNknXzhbeys/XE3XNZoBoRqcAwcOlCuuuEJQJL1n9G6SGfIBUmjYRsm7T88N"
+			"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"
+		)
+	)
+	(global_label "K40"
+		(shape input)
+		(at 129.54 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b1155f6-1135-4983-a653-29044d0af3cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.2142 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K41"
+		(shape input)
+		(at 144.78 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f1fb048-af35-45b0-ba81-b016d291ffd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.4542 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K05"
+		(shape input)
+		(at 76.2 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15a35f0d-ada1-4e31-9df3-3e309b562318")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.8742 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K13"
+		(shape input)
+		(at 175.26 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1722be9e-68db-407e-a78f-c7dcf6dfaecd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.9342 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K43"
+		(shape input)
+		(at 175.26 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18174dc8-7413-43c0-ba24-bce2c09b9b9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.9342 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K03"
+		(shape input)
+		(at 106.68 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ad5501f-cc4c-4c48-86e2-a2b486cefff3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.3542 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K31"
+		(shape input)
+		(at 91.44 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "316a1a82-d0f2-440b-bc73-31078c486564")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1142 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K50"
+		(shape input)
+		(at 198.12 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3558fae6-c692-4ca6-bbc8-948e74a3e84e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.7942 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K35"
+		(shape input)
+		(at 91.44 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a6dd903-01ac-46a4-b660-bef81bd66f28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1142 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K14"
+		(shape input)
+		(at 129.54 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d17bff8-c132-4bfa-848f-260d2467edac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.2142 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K32"
+		(shape input)
+		(at 106.68 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d0fdf86-e06b-42a2-95ed-8572102341f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.3542 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K45"
+		(shape input)
+		(at 160.02 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4dfb111c-92cf-455a-a621-590bf33009e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.6942 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K12"
+		(shape input)
+		(at 160.02 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50b4c9cd-8ed5-4454-b1dc-8bb72d690f8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.6942 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K42"
+		(shape input)
+		(at 160.02 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5207d75f-140a-49c5-98b5-704087b1a65a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.6942 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K24"
+		(shape input)
+		(at 198.12 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56c8e722-a991-49e5-928d-f66969e8e8bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.7942 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K07"
+		(shape input)
+		(at 106.68 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5af9a8ee-15f6-45f2-8cfd-f5e6c6cd8289")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.3542 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K11"
+		(shape input)
+		(at 144.78 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7632de7c-1ddd-4920-b5e8-3942d4ceea53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.4542 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K04"
+		(shape input)
+		(at 60.96 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e20120b-9d70-4036-932c-5121b4763f26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.6342 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K51"
+		(shape input)
+		(at 213.36 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8719926d-e7da-474b-9b76-d9e00b07f284")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.0342 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K02"
+		(shape input)
+		(at 91.44 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9854cd73-5d5b-437d-80f1-13ee645a708e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1142 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K26"
+		(shape input)
+		(at 228.6 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d4d6f2f-6f62-4042-8129-7b671137f604")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.2742 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K54"
+		(shape input)
+		(at 213.36 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1227df5-b542-4cd3-b39a-e5cc243883b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.0342 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K25"
+		(shape input)
+		(at 213.36 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7a8dac6-705b-4b35-af6c-91b9d9463dc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.0342 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K56"
+		(shape input)
+		(at 243.84 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a98f8747-315c-45f4-8c8c-5d3635d05288")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K15"
+		(shape input)
+		(at 144.78 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acd16867-e49e-47f3-9627-fbfa3ddb1538")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.4542 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K16"
+		(shape input)
+		(at 160.02 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b03cc1a9-7634-4cbb-b61d-889ca2b180c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.6942 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K22"
+		(shape input)
+		(at 228.6 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7621adc-7333-4df9-915a-d5044a08d935")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.2742 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K00"
+		(shape input)
+		(at 60.96 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc38080b-f0c1-45c6-acb3-33889b561c74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.6342 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K30"
+		(shape input)
+		(at 60.96 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c245de4e-9c28-490d-b68b-8c2d7646c767")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.6342 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K21"
+		(shape input)
+		(at 213.36 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4f18d70-6356-4675-b67c-04f159bc5a38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.0342 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K52"
+		(shape input)
+		(at 228.6 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c656c3bd-ad42-49de-8ba9-6ae907552575")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.2742 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K23"
+		(shape input)
+		(at 243.84 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6f6aad1-3f17-4851-8447-f4c3aef779a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K01"
+		(shape input)
+		(at 76.2 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdb8dbf1-f920-48eb-962f-70200914da96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.8742 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K17"
+		(shape input)
+		(at 175.26 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf0c4d16-123c-4787-9577-44bb4e15652f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.9342 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K44"
+		(shape input)
+		(at 129.54 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0b51edc-b214-4a07-a2ad-5765338e14c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.2142 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K20"
+		(shape input)
+		(at 198.12 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0d253e6-5079-4cb2-be34-1fdd37acce75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.7942 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K10"
+		(shape input)
+		(at 129.54 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1fdd1cb-14e6-4daf-bdbc-64f940ee75ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.2142 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K06"
+		(shape input)
+		(at 91.44 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de7a8ba2-2830-444d-ad13-6ecd1c29c4ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1142 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K33"
+		(shape input)
+		(at 60.96 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0a915f7-30cb-4b61-8277-dcfef13f710b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.6342 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K53"
+		(shape input)
+		(at 243.84 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f50e24a5-bb6c-4d6b-9ff9-14f794082004")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K34"
+		(shape input)
+		(at 76.2 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fac4b383-22bd-4f28-8f90-e05327d897af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.8742 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K55"
+		(shape input)
+		(at 228.6 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe65cffc-9d4e-4481-a24f-86a08769944f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.2742 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 88.9 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14f5951f-80df-465c-9149-31daf0ec51b5")
+		(property "Reference" "SW25"
+			(at 88.907 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.907 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a177f5bb-834b-48c6-93a6-9f701b93df78")
+		)
+		(pin "2"
+			(uuid "7352b737-bc16-4351-8112-5ddbd0cb504c")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Stab_2U")
+		(at 133.35 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15a41292-d262-49f6-8895-926ab83eedce")
+		(property "Reference" "ST1"
+			(at 135.89 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 135.89 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:STAB_2U"
+			(at 133.35 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "ST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 104.14 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "177c1b35-5d8e-45ab-ad39-32bd8b2725bc")
+		(property "Reference" "SW26"
+			(at 104.147 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 104.147 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "560a69f1-ff62-48c2-9ed5-21f5e6b4f2c7")
+		)
+		(pin "2"
+			(uuid "45fdd6d8-63f8-4e03-b329-8478cf4b798a")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 58.42 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fe8f3ba-ffd2-476c-acc4-2f525caa28c3")
+		(property "Reference" "SW1"
+			(at 58.427 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 58.427 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 58.42 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bdd2268-9709-44e1-a158-5a57d28d436d")
+		)
+		(pin "2"
+			(uuid "f14e1e27-4ef8-4400-96a4-8235e83f3bbb")
+		)
+		(instances
+			(project ""
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 210.82 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27b70fb1-56bc-4938-aadb-2d2009d2d807")
+		(property "Reference" "SW40"
+			(at 210.827 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 210.827 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 210.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdc78f79-27b2-4542-86da-fc40eea630af")
+		)
+		(pin "2"
+			(uuid "f8f427f2-4316-4ec5-9079-50f143a91909")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 241.3 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b5e97ce-fe59-4e4a-82fe-c9b327a212b7")
+		(property "Reference" "SW34"
+			(at 241.307 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 241.307 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a635eae-559f-47dd-bd93-735c5d30f7da")
+		)
+		(pin "2"
+			(uuid "14406125-f0e6-438a-ae37-ac46ca0956a7")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 50.8 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31a633b2-e60a-4ae9-a2d6-63e29bd5f973")
+		(property "Reference" "#PWR014"
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 50.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a82566ca-6c23-4b71-a823-5e820ddf1e04")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 210.82 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39fe44c3-d487-4b28-994a-9f1e7248b94b")
+		(property "Reference" "SW10"
+			(at 210.827 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 210.827 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 210.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efb68932-3c13-4835-95e2-6b647dd928fc")
+		)
+		(pin "2"
+			(uuid "3864782a-8934-4eb3-bd43-afbdd8f965c1")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 195.58 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41125eac-b70c-4539-9b37-07b199abd317")
+		(property "Reference" "SW31"
+			(at 195.587 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 195.587 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 195.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba7e813e-2fda-4985-8c31-6b76aa5469ab")
+		)
+		(pin "2"
+			(uuid "99d91ee4-4383-4e08-aa4a-b4fe66237aff")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 73.66 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "486d6045-130c-4380-b5dd-92fefde1f473")
+		(property "Reference" "SW2"
+			(at 73.667 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 73.667 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ce4f547-fa73-4d8f-93e0-2ee34c437d6e")
+		)
+		(pin "2"
+			(uuid "b706c33e-0067-4599-8fc5-bcae5228f437")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 172.72 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49613fdd-b24b-4a7a-9e99-2cd6b6dfe5c3")
+		(property "Reference" "SW20"
+			(at 172.727 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 172.727 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d95a0213-026c-408e-9db6-a22af309fd51")
+		)
+		(pin "2"
+			(uuid "73bc20e8-8782-4c0e-afe9-cb2e1950496f")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 157.48 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a1d8b67-d72e-4ffe-9afc-19bc0188a7d5")
+		(property "Reference" "SW7"
+			(at 157.487 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 157.487 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1ed2fa8-7976-4fea-bd67-046013ee10ff")
+		)
+		(pin "2"
+			(uuid "7726fb76-7fba-40b3-af0c-d56c8ca0941c")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 195.58 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50882093-5610-4566-b6fb-fd8b07272c02")
+		(property "Reference" "SW21"
+			(at 195.587 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 195.587 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6383b527-adb1-44ed-a29b-dd39f0d7eb3e")
+		)
+		(pin "2"
+			(uuid "6bfb1639-1108-458e-aaf1-5b6e204e0692")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 157.48 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58f46503-36fe-4882-b29e-64750c4f0096")
+		(property "Reference" "SW19"
+			(at 157.487 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 157.487 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06da72df-dc2f-4cab-93b1-e6b717e2def8")
+		)
+		(pin "2"
+			(uuid "2eeb92de-dd10-4480-a7ee-8910e3830879")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 127 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b619e9a-0930-487e-b9ca-c494ee3b77f5")
+		(property "Reference" "SW17"
+			(at 127.007 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 127.007 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "247fa916-0407-46a3-b7cc-658105587ed5")
+		)
+		(pin "2"
+			(uuid "e43e2066-7d03-4d10-aef5-291e3c78351e")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 58.42 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "611e197f-1553-4c48-978c-b8788cfec963")
+		(property "Reference" "SW24"
+			(at 58.427 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 58.427 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df6be11e-a6b1-43fb-be2f-a0d2377c0232")
+		)
+		(pin "2"
+			(uuid "10c35bcc-b92c-4eca-b4c4-7a5436a460f3")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 241.3 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6356fe10-a427-4e44-9e5e-6e2ec4bbe960")
+		(property "Reference" "SW42"
+			(at 241.307 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 241.307 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84ef9d2c-3a3f-4a82-86f3-b8681887c632")
+		)
+		(pin "2"
+			(uuid "211c61c8-674e-44ba-87ef-a657d6e46138")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 172.72 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66f53d2c-2af8-4501-b5a1-a548209fd114")
+		(property "Reference" "SW8"
+			(at 172.727 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 172.727 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 172.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0fdfae8-9d01-4e21-8bde-3d7b01e54e97")
+		)
+		(pin "2"
+			(uuid "43c42ca0-924f-472e-a639-a68b7201a238")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 58.42 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ae824b6-295f-4e20-939e-158e148e8bf3")
+		(property "Reference" "SW35"
+			(at 58.427 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 58.427 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "726dc161-5fdf-4075-8c8b-b4d8333d25d0")
+		)
+		(pin "2"
+			(uuid "c17663e0-0950-4090-8027-544e1526e8c9")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Stab_2U")
+		(at 163.83 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72fbdca1-0c35-4943-b36f-a8110759d460")
+		(property "Reference" "ST2"
+			(at 166.37 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 166.37 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:STAB_2U"
+			(at 163.83 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "ST2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 226.06 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73cfb067-69c4-4d0a-853a-133224f0e649")
+		(property "Reference" "SW23"
+			(at 226.067 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 226.067 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abe5dd3d-0d68-492a-bbab-cdaecdb53d45")
+		)
+		(pin "2"
+			(uuid "121f9fa0-35de-4c8f-b334-f7106e7c903a")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 172.72 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7810c775-eab2-48fb-9c90-dc3f963534c3")
+		(property "Reference" "SW30"
+			(at 172.727 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 172.727 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f63685-dcd3-47db-8154-ef9558342bde")
+		)
+		(pin "2"
+			(uuid "4d452aae-4e9d-4a67-804f-758a2bd32b24")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 88.9 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "782a102b-3950-4e43-ae43-b139520de61b")
+		(property "Reference" "SW3"
+			(at 88.907 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.907 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b7dc7c-b7bc-4ca5-a255-6021e29617d5")
+		)
+		(pin "2"
+			(uuid "a7282427-1da8-49a2-8b84-b5a9a3de2cc3")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 157.48 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89e0ece9-e4a5-478b-ae11-2c3a978e770c")
+		(property "Reference" "SW29"
+			(at 157.487 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 157.487 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1f029e9-bf82-4d72-a3d1-b3678eb89d35")
+		)
+		(pin "2"
+			(uuid "a1c9f5f1-5819-42f6-8b13-bd4b898606c5")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 142.24 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2f7e0d8-7427-4894-a47c-f7edaead2f2e")
+		(property "Reference" "SW28"
+			(at 142.247 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 142.247 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edabb21b-d961-4286-9d4a-d98a5212de93")
+		)
+		(pin "2"
+			(uuid "31efcc78-fbfe-4d62-b25d-2b2b3cb1fd9e")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 73.66 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a42b287a-2836-4c18-bb67-c43865f376bc")
+		(property "Reference" "SW14"
+			(at 73.667 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 73.667 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5ca1c1b-2b46-49bb-89ac-ab3cccd4074d")
+		)
+		(pin "2"
+			(uuid "0f5238e7-bb97-4682-90da-8abbd1bd15f1")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 50.8 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac95f9ee-8f4e-449b-b228-1158db2b62ef")
+		(property "Reference" "#PWR013"
+			(at 50.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 50.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b639c1e2-b16b-4245-869c-dc8274fb0efe")
+		)
+		(instances
+			(project ""
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 73.66 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6ec4c01-b1f8-4afe-8905-0f7e8deb0a1a")
+		(property "Reference" "SW36"
+			(at 73.667 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 73.667 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ce78912-a056-4246-b63b-0b2dacbd3c35")
+		)
+		(pin "2"
+			(uuid "19f71294-b8e2-4d27-9c1b-cab16f6519f2")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 195.58 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b99b3aab-2160-4de1-9448-9b7354ef5e8c")
+		(property "Reference" "SW9"
+			(at 195.587 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 195.587 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ac4e5b0-e354-4ff7-b358-5021a004f12f")
+		)
+		(pin "2"
+			(uuid "49b04796-4e77-4421-af50-f2fe4581b60c")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 127 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd4a2ff6-0d3e-4ba7-b5c6-c13e19ecd779")
+		(property "Reference" "SW27"
+			(at 127.007 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 127.007 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c5d157c-5eb2-4c95-9153-da8c84b8bdc9")
+		)
+		(pin "2"
+			(uuid "df5f4ffe-568a-40a9-b897-b62960313ddf")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 104.14 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfe81e9a-1103-4636-8f74-3531c4eea382")
+		(property "Reference" "SW4"
+			(at 104.147 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 104.147 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2e5e049-e8af-4c1a-b4d8-f79ae6690773")
+		)
+		(pin "2"
+			(uuid "c5dbd243-df25-4721-b4ad-24b18b07651f")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 142.24 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c05232ae-7497-43c2-a8a3-4f14cc398e84")
+		(property "Reference" "SW18"
+			(at 142.247 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 142.247 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5dc5eac-aab3-4b70-b63e-ae07763dac94")
+		)
+		(pin "2"
+			(uuid "ac1f9cbf-d575-4ae6-acdd-0cf1a3e76160")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 210.82 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce5718d5-8138-4b60-8c8e-62ebb69d329e")
+		(property "Reference" "SW22"
+			(at 210.827 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 210.827 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53a7f0a6-b04e-4ad1-9b30-62d8ad061a0b")
+		)
+		(pin "2"
+			(uuid "bddbfbf4-9aea-4470-b2a9-861befa3d4dd")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 88.9 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d294e58d-82fe-4bc6-8927-3b8b49d93e0a")
+		(property "Reference" "SW15"
+			(at 88.907 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.907 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc89c396-0721-4a97-8a7a-2fa68899cfb4")
+		)
+		(pin "2"
+			(uuid "7a5bb0ac-3933-4c1f-9bf2-261dbffc50da")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 58.42 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3152fb9-0f64-48d2-9f67-491d4461fa49")
+		(property "Reference" "SW13"
+			(at 58.427 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 58.427 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 58.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7d5fe99-f190-4577-bca5-86a9b1a83060")
+		)
+		(pin "2"
+			(uuid "1cbd6a36-037d-457a-a2c0-4b46eafd9b60")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 104.14 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d48b4569-cb53-45f8-9e1e-0a3e3dad1d13")
+		(property "Reference" "SW16"
+			(at 104.147 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 104.147 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d6a7543-8b57-421a-ab88-f4c858403384")
+		)
+		(pin "2"
+			(uuid "4de89285-84f1-45a7-8ce1-3321a91c6356")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 226.06 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4ba6342-04e5-4ecc-955f-911a4deb3cdf")
+		(property "Reference" "SW41"
+			(at 226.067 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 226.067 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 226.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e361fad5-456f-425f-872c-9e58c1acf977")
+		)
+		(pin "2"
+			(uuid "8cded58d-6b8f-4943-b593-a9c0ca5e33b1")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 157.48 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d77c026f-b1c1-4324-8727-839f84b5334d")
+		(property "Reference" "SW39"
+			(at 157.487 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 157.487 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 157.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2783cd7b-c2a6-47c1-b193-20723e9ec26d")
+		)
+		(pin "2"
+			(uuid "d50782b0-c2c8-476f-a945-7eb624607d61")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 210.82 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9098d95-1ff2-4a13-b1f6-6634fc657577")
+		(property "Reference" "SW32"
+			(at 210.827 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 210.827 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 210.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb830524-69a6-4f09-ac74-13ab24dd8516")
+		)
+		(pin "2"
+			(uuid "c4980aac-a338-4a35-8935-a119bb05acbe")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 142.24 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbc9b954-0617-4945-a97b-5910cd69a144")
+		(property "Reference" "SW6"
+			(at 142.247 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 142.247 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 142.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29e83e5c-5439-4679-8966-cbaa487e3823")
+		)
+		(pin "2"
+			(uuid "ccbc94e4-fe2d-4ecb-9d67-d2470a16e4ca")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 127 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e31368d6-b5c7-4fba-8b27-3bf8bbea1d20")
+		(property "Reference" "SW5"
+			(at 127.007 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 127.007 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d0ceca-2119-4640-9a95-d576bef033d8")
+		)
+		(pin "2"
+			(uuid "c80b1724-0614-4320-ada3-839dbfda5daa")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 226.06 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e907fbe1-3f71-4bc3-85cf-73e6cfcb4c8a")
+		(property "Reference" "SW11"
+			(at 226.067 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 226.067 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d5ccfc0-562a-4de9-a800-acb99c89f071")
+		)
+		(pin "2"
+			(uuid "980550c5-15bb-423a-b787-86e07d2d4ed3")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 226.06 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9978c46-f994-450f-841d-9bf6d8636753")
+		(property "Reference" "SW33"
+			(at 226.067 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 226.067 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d210d29d-50bc-42f1-a56f-7207828c7540")
+		)
+		(pin "2"
+			(uuid "9b7d622d-17d7-4793-b0a0-9f3469c733e8")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 127 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea9eb6d9-865a-4f40-a246-81acb150c746")
+		(property "Reference" "SW38"
+			(at 127.007 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 127.007 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 127 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8c578c5-04e2-4d18-a640-425c2d1e2907")
+		)
+		(pin "2"
+			(uuid "21d41f53-0c0e-4652-9719-337c059b1703")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 241.3 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdbf69bc-56b3-4efe-abf0-49e8c56f1eac")
+		(property "Reference" "SW12"
+			(at 241.307 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 241.307 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 241.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddb97c26-8592-4566-b255-4c70239963d3")
+		)
+		(pin "2"
+			(uuid "8077c15a-2f87-47f3-b3e1-332939d44582")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Momentary_Switch")
+		(at 88.9 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff52152e-f61d-45c9-99f9-7cbeace3f788")
+		(property "Reference" "SW37"
+			(at 88.907 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.907 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2b09295-70be-45ba-88e5-f397d80f175c")
+		)
+		(pin "2"
+			(uuid "436ec63d-0b48-4c78-a9ae-cccd894ef996")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
