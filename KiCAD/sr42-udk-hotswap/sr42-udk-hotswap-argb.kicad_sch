@@ -8981,7 +8981,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.94 185.42 0)
 			(effects
 				(font
@@ -15060,7 +15060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb724c46-f2dd-45c2-90a5-c222d9e8f243")
-		(property "Reference" "SW44"
+		(property "Reference" "RLY1"
 			(at 142.24 173.99 0)
 			(effects
 				(font
@@ -15133,7 +15133,7 @@
 		(instances
 			(project ""
 				(path "/f46a5539-adf6-4398-ac89-026a5789886b/927beec8-2af1-485b-83ac-8d4b31fb2213"
-					(reference "SW44")
+					(reference "RLY1")
 					(unit 1)
 				)
 			)

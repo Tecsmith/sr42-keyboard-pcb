@@ -194,7 +194,6 @@
       "track_widths": [
         0.0,
         0.254,
-        0.4064,
         0.508
       ],
       "tuning_pattern_settings": {
@@ -227,14 +226,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.35,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.25
         },
         {
           "diameter": 0.7,

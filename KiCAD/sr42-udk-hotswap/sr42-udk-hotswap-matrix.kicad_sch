@@ -1695,6 +1695,10 @@
 		(uuid "fef6f2ff-2aff-466a-a8c0-aaa696373814")
 	)
 	(no_connect
+		(at 195.58 109.22)
+		(uuid "17a817e0-a419-4968-83af-64a17eefa8ec")
+	)
+	(no_connect
 		(at 210.82 132.08)
 		(uuid "d76e31d0-2468-45d8-8d19-b89d095ddde1")
 	)
@@ -3578,6 +3582,28 @@
 			)
 		)
 	)
+	(global_label "KX57"
+		(shape input)
+		(at 193.04 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31ebfea2-17e7-4d37-ba66-7ff21db59aca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.1563 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KD36"
 		(shape input)
 		(at 189.23 144.78 270)
@@ -4789,6 +4815,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 193.04 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1aa83e45-2b3b-4dfd-803b-85ee9addcc9c")
+		(property "Reference" "#PWR067"
+			(at 196.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 189.738 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5da2ed1-da61-40bf-8af7-d037feaef973")
+		)
+		(instances
+			(project "sr42-udk-hotswap"
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ts-keyboard-lib:Momentary_Switch")
 		(at 58.42 53.34 0)
 		(unit 1)
@@ -4919,6 +5010,79 @@
 			(project "sr42-udk-hotswap"
 				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
 					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:CONN_02")
+		(at 195.58 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2afbe358-1e90-4ede-9800-408b481595d4")
+		(property "Reference" "J4"
+			(at 199.39 104.4955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 199.39 107.0355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 195.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4ca7522-ec87-4a3d-894f-b50e8968a88d")
+		)
+		(pin "1"
+			(uuid "92162940-9fee-487a-ae15-05b3b42b5efe")
+		)
+		(pin "MP"
+			(uuid "5a1ec49a-98e7-45b0-ae32-4b4a1dd33b1a")
+		)
+		(instances
+			(project ""
+				(path "/f46a5539-adf6-4398-ac89-026a5789886b/ae5e24a8-a0c4-4701-9208-d5e4602a2b27"
+					(reference "J4")
 					(unit 1)
 				)
 			)
