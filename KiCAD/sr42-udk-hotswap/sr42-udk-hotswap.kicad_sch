@@ -3288,7 +3288,7 @@
 		(uuid "902cfdd0-40d6-4885-bf5c-220d138a125e")
 	)
 	(no_connect
-		(at 248.92 149.86)
+		(at 243.84 149.86)
 		(uuid "a25b83a6-5070-4cb7-88bb-5de4d86a135b")
 	)
 	(no_connect
@@ -7875,7 +7875,7 @@
 	)
 	(global_label "LED_EN"
 		(shape input)
-		(at 243.84 149.86 90)
+		(at 248.92 149.86 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7885,7 +7885,7 @@
 		)
 		(uuid "521f8a86-8b62-462e-ab03-ebedf10e08c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 139.9806 90)
+			(at 248.92 139.9806 90)
 			(effects
 				(font
 					(size 1.27 1.27)

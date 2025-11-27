@@ -229,14 +229,6 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.35,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.25
-        },
-        {
           "diameter": 0.7,
           "drill": 0.35
         }
@@ -481,7 +473,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "ts-kb-mcus-lib"
+    ]
   },
   "meta": {
     "filename": "udk_module_stm32f405.kicad_pro",
