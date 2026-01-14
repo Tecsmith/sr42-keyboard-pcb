@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.55,
-          "width": 1.7
+          "height": 0.7,
+          "width": 1.05
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -519,7 +519,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../Desktop/udk_module_stm32f405.step",
+      "step": "../../3DModels/udk_module_stm32f405.step",
       "svg": "",
       "vrml": ""
     },
