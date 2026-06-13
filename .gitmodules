@@ -1,0 +1,3 @@
+[submodule "KiCAD/udk_module_stm32f405"]
+	path = KiCAD/udk_module_stm32f405
+	url = https://github.com/Tecsmith/udk_stm32f405
