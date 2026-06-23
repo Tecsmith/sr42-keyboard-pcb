@@ -14620,7 +14620,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 15.24 182.88 0)
+		(at 15.24 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14628,10 +14628,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac7570e0-6b7d-429b-bce4-3e40134b871d")
 		(property "Reference" "FID3"
-			(at 17.78 181.6099 0)
+			(at 17.78 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14642,7 +14641,8 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 17.78 184.1499 0)
+			(at 17.78 194.3099 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14652,8 +14652,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 15.24 182.88 0)
+		(property "Footprint" "ts-kicad-lib:Fiducial_0.5mm_Mask1mm_F"
+			(at 15.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14664,7 +14664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 182.88 0)
+			(at 15.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14675,7 +14675,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 15.24 182.88 0)
+			(at 15.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16431,7 +16431,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 15.24 187.96 0)
+		(at 15.24 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16439,10 +16439,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dcfe5628-160b-40af-96a9-cd279b7c386b")
 		(property "Reference" "FID2"
-			(at 17.78 186.6899 0)
+			(at 17.78 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16453,7 +16452,8 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 17.78 189.2299 0)
+			(at 17.78 190.4999 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16463,8 +16463,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 15.24 187.96 0)
+		(property "Footprint" "ts-kicad-lib:Fiducial_0.5mm_Mask1mm_F"
+			(at 15.24 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16475,7 +16475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 187.96 0)
+			(at 15.24 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16486,7 +16486,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 15.24 187.96 0)
+			(at 15.24 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17233,7 +17233,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 15.24 193.04 0)
+		(at 15.24 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17241,10 +17241,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e741a972-f6e3-43bf-a7a1-d49d27fb2dc6")
 		(property "Reference" "FID1"
-			(at 17.78 191.7699 0)
+			(at 17.78 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17255,7 +17254,8 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 17.78 194.3099 0)
+			(at 17.78 186.6899 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17265,8 +17265,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 15.24 193.04 0)
+		(property "Footprint" "ts-kicad-lib:Fiducial_0.5mm_Mask1mm_F"
+			(at 15.24 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17277,7 +17277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 193.04 0)
+			(at 15.24 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17288,7 +17288,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 15.24 193.04 0)
+			(at 15.24 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
