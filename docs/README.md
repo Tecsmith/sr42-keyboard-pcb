@@ -7,7 +7,7 @@ Please refer to the <a href="https://github.com/Tecsmith/sr42-keyboard">project 
 ---
 
 <p align="center">
-  <img src="docs/donotbuild.min.svg"><br>
+  <img src="donotbuild.min.svg"><br>
   <b>Please Note:</b> This project is design complete, but has not been prototyped to validate. Build at your own risk.
 </p>
 
